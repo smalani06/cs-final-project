@@ -4,18 +4,18 @@
 You must inspect your traffic capture to answer the following questions:
 
 1. What is the domain name of the users' custom site?
-  - FRANK-N-TED.COM
+    - FRANK-N-TED.COM
 
 ![](https://github.com/smalani06/cs-final-project/blob/main/images/network/tt1.png)
 
 2. What is the IP address of the Domain Controller (DC) of the AD network?
-  - 10.6.12.12
+    - 10.6.12.12
 
 ![](https://github.com/smalani06/cs-final-project/blob/main/images/network/tt2.png)
 
 3. What is the name of the malware downloaded to the 10.6.12.203 machine?
-  - june11.dll
-  - Export the file by going to File > Export Objects > HTTP.
+    - june11.dll
+    - Export the file by going to File > Export Objects > HTTP.
 
 ![](https://github.com/smalani06/cs-final-project/blob/main/images/network/tt3.png)
 
@@ -24,7 +24,7 @@ You must inspect your traffic capture to answer the following questions:
 ![](https://github.com/smalani06/cs-final-project/blob/main/images/network/tt4.png)
 
 5. What kind of malware is this classified as?
-  - Trojan
+    - Trojan
 
 ---
 
