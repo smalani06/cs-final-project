@@ -66,3 +66,6 @@ You must inspect your traffic capture to answer the following questions:
     - Betty_Boop_Rhythm_on_the_Reservation.avi.torrent
 
 ![](https://github.com/smalani06/cs-final-project/blob/main/images/network/i2.png)
+
+References:
+  - https://unit42.paloaltonetworks.com/using-wireshark-identifying-hosts-and-users/
