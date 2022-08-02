@@ -98,8 +98,8 @@ The following vulnerabilities were identified on each target:
  - Scan Used
   - wpscan --url http://192.168.1.110/wordpress --enumerate
 
-![](wps1.png)
-![](wps2.png)
+![](https://github.com/smalani06/cs-final-project/blob/main/images/wps1.png)
+![](https://github.com/smalani06/cs-final-project/blob/main/images/wps1.png)
 
 ### Exploitation
 
@@ -117,9 +117,14 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
       - Use grep to find the flag in the html files.
         - ```grep -E flag*. *.html```
 
+![](https://github.com/smalani06/cs-final-project/blob/main/images/hydra.png)
+![](https://github.com/smalani06/cs-final-project/blob/main/images/flag1.png)
+
   - `flag2.txt`: _fc3fd58dcdad9ab23faca6e9a36e581c_
     - **Exploit Used**
       - SSH into the server using michael's account.
         - ```ssh michael@192.168.1.110```
       - Use find command to search for flags.
         - ```find . -name flag*```
+
+![](https://github.com/smalani06/cs-final-project/blob/main/images/findflag2.png)
