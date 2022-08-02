@@ -161,6 +161,7 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
         - ```find . -name flag*```
         - cat /root/flag4.txt
 
+![](https://github.com/smalani06/cs-final-project/blob/main/images/john.png)
 ![](https://github.com/smalani06/cs-final-project/blob/main/images/sshsteven.png)
 ![](https://github.com/smalani06/cs-final-project/blob/main/images/findflag4.png)
 ![](https://github.com/smalani06/cs-final-project/blob/main/images/flag4.png)
