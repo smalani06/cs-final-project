@@ -60,7 +60,7 @@ You must inspect your traffic capture to answer the following questions:
 
 ![](https://github.com/smalani06/cs-final-project/blob/main/images/network/i1.png)
 
-![](https://github.com/smalani06/cs-final-project/blob/main/images/network/i1_1.png)
+![](https://github.com/smalani06/cs-final-project/blob/main/images/network/i1_2.png)
 
 2. Which torrent file did the user download?
     - Betty_Boop_Rhythm_on_the_Reservation.avi.torrent
