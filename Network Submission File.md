@@ -31,12 +31,22 @@ You must inspect your traffic capture to answer the following questions:
 ## Vulnerable Windows Machine
 
 1. Find the following information about the infected Windows machine:
-    - Host name
-    - IP address
-    - MAC address
+    - Host name: ROTTERDAM-PC
+    - IP Address: 172.16.4.205
+    - MAC Address: 00:59:07:b0:63:a4
+
+![](https://github.com/smalani06/cs-final-project/blob/main/images/network/w1.png)
 
 2. What is the username of the Windows user whose computer is infected?
+    - matthijs.devries
+
+![](https://github.com/smalani06/cs-final-project/blob/main/images/network/w2.png)
+
 3. What are the IP addresses used in the actual infection traffic?
+    - 185.243.115.84
+
+![](https://github.com/smalani06/cs-final-project/blob/main/images/network/w3.png)
+
 4. As a bonus, retrieve the desktop background of the Windows host.
 
 ---
@@ -44,8 +54,15 @@ You must inspect your traffic capture to answer the following questions:
 ## Illegal Downloads
 
 1. Find the following information about the machine with IP address `10.0.0.201`:
-    - MAC address
-    - Windows username
-    - OS version
+    - MAC address: 00:16:17:18:66:c8
+    - Windows username: elmer.blanco
+    - OS version: Windows 10
+
+![](https://github.com/smalani06/cs-final-project/blob/main/images/network/i1.png)
+
+![](https://github.com/smalani06/cs-final-project/blob/main/images/network/i1_1.png)
 
 2. Which torrent file did the user download?
+    - Betty_Boop_Rhythm_on_the_Reservation.avi.torrent
+
+![](https://github.com/smalani06/cs-final-project/blob/main/images/network/i2.png)
