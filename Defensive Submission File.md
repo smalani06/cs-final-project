@@ -67,5 +67,3 @@ Alert 3 is implemented as follows:
   - **Threshold**: Usage is greater than 50% for the last 5 minutes.
   - **Vulnerability Mitigated**: If the CPU usage continually stays high, the server may become unresponsive causing downtime.
   - **Reliability**: High
-
-_TODO Note: Explain at least 3 alerts. Add more if time allows._
