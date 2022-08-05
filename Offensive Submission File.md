@@ -99,7 +99,7 @@ The following vulnerabilities were identified on each target:
   - wpscan --url http://192.168.1.110/wordpress --enumerate
 
 ![](https://github.com/smalani06/cs-final-project/blob/main/images/wps1.png)
-![](https://github.com/smalani06/cs-final-project/blob/main/images/wps1.png)
+![](https://github.com/smalani06/cs-final-project/blob/main/images/wps2.png)
 
 ### Exploitation
 
